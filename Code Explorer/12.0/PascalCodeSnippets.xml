@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE MM-code-snippets>
+<code-snippets language="Pascal">
+	<snippet-type name="try-finally-wizard">
+		<code-snippet name="try" code="try" state="predefined"/>
+		<code-snippet name="finally" code="finally\N&#x9;&lt;!FinallyCode!&gt;\Nend;" state="predefined"/>
+	</snippet-type>
+	<snippet-type name="property-getter">
+		<code-snippet name="Read Code" code="Result := &lt;!FieldName!&gt;;" state="predefined"/>
+	</snippet-type>
+	<snippet-type name="property-setter">
+		<code-snippet name="Write Code" code="&lt;!FieldName!&gt; := &lt;!WriteParam!&gt;;" state="predefined"/>
+		<code-snippet name="Ext. Write Code" code="if &lt;!FieldName!&gt; &lt;&gt; &lt;!WriteParam!&gt; then\Nbegin\N&#x9;&lt;!FieldName!&gt; := &lt;!WriteParam!&gt;;\Nend;" state="predefined"/>
+	</snippet-type>
+	<snippet-type name="method-implementation">
+		<code-snippet name="Default method body" code="&lt;!DefaultMethodBody!&gt;" state="predefined"/>
+		<code-snippet name="Call inherited / base method" code="&lt;!CallInheritedMethod!&gt;" state="predefined"/>
+	</snippet-type>
+</code-snippets>

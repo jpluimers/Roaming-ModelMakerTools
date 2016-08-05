@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE embrace_snippets>
+<snippets>
+	<node name="try">
+		<snippet name="try finally clip.Free" language="pascal" indent="1" prefix="try" postfix="finally\N\L  &lt;!clipboard!&gt;.Free;\N\Lend;" singleline="False" wordselect="False"/>
+		<snippet name="try finally" language="pascal" indent="1" prefix="try" postfix="finally\N\L\N\Lend;" singleline="False" wordselect="False"/>
+		<snippet name="try finally Free" language="pascal" indent="1" prefix="try" postfix="finally\N\L  &gt;|&lt;.Free;\N\Lend;" singleline="False" wordselect="False"/>
+		<snippet name="try except" language="pascal" indent="1" prefix="try" postfix="except\N\L  on E: Exception do: &gt;|&lt;;\N\Lend;" singleline="False" wordselect="False"/>
+		<snippet name="try Begin/EndUpdate" language="pascal" indent="1" prefix="BeginUpdate;\N\Ltry" postfix="finally\N\L  EndUpdate;\N\Lend;" singleline="False" wordselect="False"/>
+		<snippet name="try catch" language="C#" indent="1" prefix="try {" postfix="}\N\Lcatch (System.Exception e) {\N\L\N\L}" singleline="False" wordselect="False"/>
+		<snippet name="try catch finally" language="C#" indent="1" prefix="try {" postfix="}\N\Lcatch (System.Exception e) {\N\L\N\L}\N\Lfinally {\N\L\N\L}" singleline="False" wordselect="False"/>
+	</node>
+	<node name="blocks">
+		<snippet name="begin end 0 indent" language="pascal" indent="-1" prefix="begin" postfix="end;" singleline="False" wordselect="False"/>
+		<snippet name="begin end" language="pascal" indent="1" prefix="begin" postfix="end;" singleline="False" wordselect="False"/>
+		<snippet name="{ } block" language="C#" indent="1" prefix="{" postfix="}" singleline="False" wordselect="False"/>
+		<snippet name="{ } block 0 indent" indent="0" prefix="{" postfix="}" singleline="False" wordselect="False"/>
+	</node>
+	<snippet name="Format string" language="pascal" indent="0" prefix="Format(&gt;|&lt;" postfix=", [])" singleline="True" wordselect="True"/>
+	<snippet name="Format string" language="C#" indent="0" prefix="string.Format(" postfix="&gt;|&lt;, )" singleline="True" wordselect="True"/>
+	<snippet name="( )" indent="0" prefix="(" postfix=")&gt;|&lt;" singleline="True" wordselect="False"/>
+	<snippet name="MessageDlg" language="pascal" indent="0" prefix="MessageDlg(&gt;|&lt;" postfix=", mtInformation, mbOkCancel, 0);" singleline="True" wordselect="True"/>
+	<node name="if">
+		<snippet name="if then" language="pascal" indent="1" prefix="if &gt;|&lt; then\Nbegin" postfix="end;" singleline="False" wordselect="False"/>
+		<snippet name="if then else" language="pascal" indent="1" prefix="if &gt;|&lt; then\Nbegin" postfix="end\Nelse\Nbegin\N\Nend;" singleline="False" wordselect="False"/>
+		<snippet name="if { }" language="C#" indent="1" prefix="if (&gt;|&lt;) {" postfix="}" singleline="False" wordselect="False"/>
+		<snippet name="if else" indent="1" prefix="if (&gt;|&lt;) {" postfix="}\N\Lelse {\N\L\N\L}" singleline="False" wordselect="False"/>
+	</node>
+	<snippet name="FreeAndNil" language="pascal" indent="0" prefix="FreeAndNil(" postfix=");&gt;|&lt;" singleline="True" wordselect="True"/>
+	<snippet name="// class separator" indent="0" prefix="//\N\L//\N\L// &lt;!ClassName!&gt;&gt;|&lt;\N\L//\N\L//\N\L" singleline="False" wordselect="False"/>
+	<node name="Directives">
+		<snippet name="IFDEF" language="pascal" indent="0" prefix="{$IFDEF &gt;|&lt;}" postfix="{$ENDIF}" singleline="False" wordselect="False"/>
+		<snippet name="IFOPT C+" language="pascal" indent="0" prefix="{$IFOPT C+}" postfix="{$ENDIF}" singleline="False" wordselect="False"/>
+		<snippet name="IFOPT D+" language="pascal" indent="0" prefix="{$IFOPT D+}" postfix="{$ENDIF}" singleline="False" wordselect="False"/>
+		<snippet name="REGION" language="pascal" indent="0" prefix="{$REGION &apos;&lt;!clipboard!&gt;&gt;|&lt;&apos;}" postfix="{$ENDREGION}" singleline="False" wordselect="False"/>
+		<snippet name="if" language="C#" indent="0" prefix="#if &gt;|&lt;" postfix="#endif" singleline="False" wordselect="False"/>
+		<snippet name="region" language="C#" indent="0" prefix="#region &quot;&gt;|&lt;&quot;" postfix="#endregion" singleline="False" wordselect="False"/>
+	</node>
+	<snippet name="namespace" language="C#" indent="1" prefix="namespace &gt;|&lt; {" postfix="}" singleline="False" wordselect="False"/>
+</snippets>

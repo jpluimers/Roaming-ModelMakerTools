@@ -1,0 +1,86 @@
+﻿
+[Object Pascal.construction]
+Integer=<!membername!> := 0;
+ShortInt=<!membername!> := 0;
+SmallInt=<!membername!> := 0;
+LongInt=<!membername!> := 0;
+Byte=<!membername!> := 0;
+Int64=<!membername!> := 0;
+Word=<!membername!> := 0;
+LongWord=<!membername!> := 0;
+Cardinal=<!membername!> := 0;
+Boolean=<!membername!> := True;
+ByteBool=<!membername!> := True;
+WordBool=<!membername!> := True;
+LongBool=<!membername!> := True;
+Extended=<!membername!> := 0;
+Single=<!membername!> := 0;
+Double=<!membername!> := 0;
+Comp=<!membername!> := 0;
+Currency=<!membername!> := 0;
+Real=<!membername!> := 0;
+Real48=<!membername!> := 0;
+string=<!membername!> := '';
+ShortString=<!membername!> := '';
+AnsiString=<!membername!> := '';
+Char=<!membername!> := #0;
+AnsiChar=<!membername!> := #0;
+WideChar=<!membername!> := #0;
+PChar=<!membername!> := '';
+PAnsiChar=<!membername!> := '';
+PWideChar=<!membername!> := '';
+PString=<!membername!> := '';
+Pointer=GetMem(<!membername!>, SizeOf( ));
+TStrings=<!membername!> := TStringList.Create;
+.interface.=<!membername!> := T<!typename!>.Create();
+.default.=<!membername!> := <!typename!>.Create(<!ctorparams!>);
+
+[Object Pascal.destruction]
+PChar=StrDispose(<!membername!>);
+PAnsiChar=StrDispose(<!membername!>);
+Pointer=FreeMem(<!membername!>, SizeOf( ));
+.interface.=<!membername!> := nil;
+.struct.=
+.default.=FreeAndNil(<!membername!>);
+
+[Object Pascal.defaultvalues]
+Integer=<!membername!> := 0;
+ShortInt=<!membername!> := 0;
+SmallInt=<!membername!> := 0;
+LongInt=<!membername!> := 0;
+Byte=<!membername!> := 0;
+Int64=<!membername!> := 0;
+Word=<!membername!> := 0;
+LongWord=<!membername!> := 0;
+Cardinal=<!membername!> := 0;
+Boolean=<!membername!> := True;
+ByteBool=<!membername!> := True;
+WordBool=<!membername!> := True;
+LongBool=<!membername!> := True;
+Extended=<!membername!> := 0;
+Single=<!membername!> := 0;
+Double=<!membername!> := 0;
+Comp=<!membername!> := 0;
+Currency=<!membername!> := 0;
+Real=<!membername!> := 0;
+Real48=<!membername!> := 0;
+string=<!membername!> := '';
+ShortString=<!membername!> := '';
+AnsiString=<!membername!> := '';
+Char=<!membername!> := #0;
+AnsiChar=<!membername!> := #0;
+WideChar=<!membername!> := #0;
+PChar=<!membername!> := '';
+PAnsiChar=<!membername!> := '';
+PWideChar=<!membername!> := '';
+PString=<!membername!> := '';
+.class.=<!membername!> := nil;
+.interface.=<!membername!> := nil;
+.default.=<!membername!> := ;
+
+[Object Pascal.parameter-modifiers]
+string=const
+.interface.=const
+.struct.=const
+.default.=none
+

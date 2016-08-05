@@ -1,0 +1,13 @@
+﻿
+[Object Pascal]
+
+[Object Pascal.Params]
+ReplacePrefix=False
+ReplaceWith=A
+
+[C#]
+
+[C#.Params]
+ReplacePrefix=False
+ReplaceWith=A
+

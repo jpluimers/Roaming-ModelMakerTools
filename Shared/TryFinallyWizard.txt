@@ -1,0 +1,11 @@
+﻿
+[Object Pascal.TryWizard]
+BeginUpdate=EndUpdate
+Inc=Dec
+Dec=Inc
+Lock=Unlock
+True=False
+False=True
+Open=Close
+crHourGlass=crDefault
+
